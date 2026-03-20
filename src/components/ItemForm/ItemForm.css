@@ -1,0 +1,39 @@
+.item-form {
+  animation: fadeIn 0.3s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.form-buttons {
+  margin-bottom: 0;
+  text-align: right;
+}
+
+.form-buttons .ant-btn {
+  min-width: 100px;
+  transition: all 0.3s ease;
+}
+
+.form-buttons .ant-btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+}
+
+@media (max-width: 480px) {
+  .form-buttons .ant-space {
+    width: 100%;
+  }
+
+  .form-buttons .ant-btn {
+    flex: 1;
+  }
+}

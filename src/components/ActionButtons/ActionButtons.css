@@ -1,0 +1,21 @@
+.action-buttons {
+  transition: all 0.3s ease;
+}
+
+.edit-button,
+.delete-button {
+  transition: all 0.3s ease;
+}
+
+.edit-button:hover {
+  color: #667eea;
+  transform: scale(1.1);
+}
+
+.delete-button:hover {
+  transform: scale(1.1);
+}
+
+.action-buttons .ant-btn {
+  padding: 4px 8px;
+}
