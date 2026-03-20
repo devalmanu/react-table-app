@@ -1,7 +1,7 @@
 {
   "name": "react-table-app",
   "version": "0.1.0",
-  "homepage": ".",
+  "homepage": "https://devalmanu.github.io/react-table-app",
   "private": true,
   "dependencies": {
     "@ant-design/icons": "^6.1.0",
