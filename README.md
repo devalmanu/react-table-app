@@ -23,7 +23,7 @@
 
 ## 🚀 Демо
 
-[Посмотреть демо](https://devalmanu.github.io/react-table-app)
+[Посмотреть демо](https://devalmanu.github.io/react-table-app/)
 
 ## 📦 Установка и запуск
 
@@ -32,7 +32,7 @@
 git clone https://github.com/devalmanu/react-table-app.git
 
 # Перейти в папку проекта
-cd [repository-name]
+cd react-table-app
 
 # Установить зависимости
 npm install
